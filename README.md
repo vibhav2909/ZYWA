@@ -19,8 +19,9 @@ Node.js with Express.js was selected for the backend due to its lightweight and 
 Why MongoDB for Database:
 MongoDB was chosen as the database for its flexibility and scalability. Being a NoSQL database, MongoDB allows for the storage of unstructured data, making it suitable for storing card status information, which may vary in structure. Additionally, MongoDB's scalability enables seamless handling of large volumes of data, ensuring the application can accommodate growth in the number of users and cards.
 
-Possible Improvements:
+Firlstly i saved the csv files in my device and from the new.js file after adding the path to each csv i combined them based on their Card_id which will has the data of the particular card id about its pickup, deliver and delivered/returned
 
+Possible Improvements:
 Input Validation: Implement input validation on the frontend to ensure that users enter valid card IDs or mobile numbers before submitting the request.
 Error Handling: Enhance error handling on both the frontend and backend to provide informative error messages to users in case of failures.
 Authentication and Authorization: Implement user authentication and authorization mechanisms to restrict access to sensitive endpoints and data.
