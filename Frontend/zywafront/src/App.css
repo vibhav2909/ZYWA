@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+
+}
+/* App.css */
+body {
+  background-color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+.image-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  width: 200px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* App.css */
+/* Add styling for the header */
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+/* Existing styles */
+.centered-container {
+  margin-top: 30px;
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column; /* Adjusted to column layout */
+  justify-content: left;
+  align-items: left;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.enter input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.ABC {
+  font-size: 18px; /* Adjusted font size */
+  padding: 10px 0; /* Adjusted padding */
+  font-weight: bold;
+margin-top: 50px;
+}
+
+.status {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color:rgb(124, 58, 187);
+}
+.enter button {
+  font-size: 20px; /* Increase font size */
+  padding: 12px 20px; /* Increase padding */
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(124, 58, 187); /* Add background color */
+  color: white; /* Add text color */
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
