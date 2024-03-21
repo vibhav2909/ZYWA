@@ -44,12 +44,12 @@ body {
 /* App.css */
 .image-container {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
 }
 
 .logo {
-  width: 200px; /* Adjust as needed */
+  width: 300px; /* Adjust as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -64,8 +64,8 @@ body {
 
 /* Existing styles */
 .centered-container {
-  margin-top: 30px;
-  background-color: white;
+  margin-top: 500px;
+  background-color: rgb(224, 39, 39);
   width: 500px;
   height: 600px;
   display: flex;
@@ -73,7 +73,7 @@ body {
   justify-content: left;
   align-items: left;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   margin: auto;
 }
 
@@ -96,16 +96,20 @@ margin-top: 50px;
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
-  color:rgb(124, 58, 187);
+  color:rgb(61, 30, 91);;
 }
 .enter button {
   font-size: 20px; /* Increase font size */
   padding: 12px 20px; /* Increase padding */
   border-radius: 5px;
   border: none;
-  background-color: rgb(124, 58, 187); /* Add background color */
+  background-color: rgb(61, 30, 91); /* Add background color */
   color: white; /* Add text color */
   cursor: pointer;
   margin-top: 20px;
   transition: background-color 0.3s ease; /* Add transition effect */
+}
+.zpic {
+  width: 450px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
 }

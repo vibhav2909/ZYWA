@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import pic from "./Images/pro.png"; // Import your image
 import axios from 'axios'; // Import Axios for making HTTP requests
-
+import zpic from "./Images/abc.png";
 function App() {
   const [inputValue, setInputValue] = useState('');
   const [cardStatus, setCardStatus] = useState('');
@@ -45,6 +45,9 @@ function App() {
       {/* Input container */}
       <div className="centered-container">
   <div className='header'>Get Card Status</div> {/* Added header */}
+  <div className="image-container1">
+  <img src={zpic} alt="Logo" className="zpic" />
+      </div>
   <div className='enter'>
     <div className='ABC'>Enter Card Id or Mobile Number</div>
     <input 
